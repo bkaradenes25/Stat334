@@ -1,0 +1,35 @@
+---
+title: "Your Title"
+author: "Brendan Karadenes"
+format: 
+  html:
+    embed-resources: true
+---
+
+“All work presented is my own, and I have followed all rules for collaboration. I have not used any AI for this assignment.” - Brendan Karadenes
+
+
+```{r}
+library(tidyverse)
+diamonds
+```
+
+1.
+
+```{r}
+ggplot(data = diamonds, aes(x = price)) + geom_histogram(fill = "blue") + facet_grid(~cut)
+```
+
+2.
+
+```{r}
+ggplot(data = diamonds, aes(x = price)) + geom_histogram(fill = "blue") + facet_grid(~cut) +  theme(  axis.text = element_text(size = 4),
+    axis.line = element_line(arrow = arrow()))
+```
+
+Question 3.
+
+https://github.com/bkaradenes25/Stat334
+
+
+

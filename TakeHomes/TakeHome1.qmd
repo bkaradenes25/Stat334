@@ -1,0 +1,43 @@
+---
+title: "TakeHome1"
+author: "Brendan Karadenes"
+format: 
+  html:
+    embed-resources: true
+---
+
+ “All work presented is my own, and I have followed all rules for collaboration. If I used any AI on this assignment, I have clearly stated both (1) what my search prompt was and (2) what I used from the AI answer.”” - Brendan Karadenes
+
+Question 1.
+
+It's easiest to see the overall trend in Group 5 because it is the category closest to the x-axis baseline, making its trend the easiest to interpret.
+
+Question 2.
+
+a. In this case we would want a diverging scale because the steps away from the midpoint of 0% change would be perceptually even in both directions.
+
+b. We should use a sequential color scale because we would want to generate a perpetually uniform scheme that increases by the same magnitude per each COVID case.
+
+Question 3.
+
+a. I believe a histogram would be most appropriate to visualize the test score data because it is a single quantitative variable and a histogram can show a lot of details of its distribution. 
+
+b. The histogram can show it's center, i.e. what its median is. Also, it can show the shape of the exam scores (whether or not the data is skewed or if there are outliers). It can show the spread of the distribution to see how close the exam scores are to each other. You can also get an estimation of the class size.
+
+Question 4.
+
+a. The geom functions are different in this pair, the first graph uses geom_point(), while the second graph uses geom_boxplot(). 
+
+b. In this pair the coordinate functions are different, the second graph uses coord_flip() while the first one does not, making their axis different.
+
+c. In this pair the geom functions are different, the second graph uses geom_jitter(), while the first one does not. Also the positions are different, the second graph has its boxplots to the left of the first graphs.
+
+Question 5.
+
+a. In this pair I think that Plot 1 gives a more accurate representation of the data because it starts at the zero baseline, whereas Plot 2 starts at 40 making the differences between the number of players at each position seem larger than they actually are.
+
+b. I would prefer Plot 1 because it's hard to interpret 9 different color shades in the second plot, the faceting in the first plot makes the data easier to read because there is no overlap.
+
+
+
+
